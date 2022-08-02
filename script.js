@@ -1,10 +1,11 @@
-const $ = document.querySelector.bind(document);
+const $ = document.querySelector.bind(document)
 
 function add(a, b) {
-  let c = a + b;
+  const c = a + b;
   return c;
 }
-const output = add(2,2);
 
-$("#output").innerHTML = output;
-console.log(output);
+const output = add(2, 2)
+
+$('#output').innerHTML = output
+console.log(output)
