@@ -1,11 +1,10 @@
 const $ = document.querySelector.bind(document)
-
-function add(a, b) {
-  const c = a + b;
-  return c;
+info = {
+  name: 'Ray Villalobos',
+  twitter: '@planetoftheweb',
+  youtube: 'youtube.com/planetoftheweb',
+  youtube: 'linkedin.com/in/planetoftheweb'
 }
-
-const output = add(2, 2)
-
-$('#output').innerHTML = output
-console.log(output)
+function displayCard() {
+}
+$('#output').innerHTML = displayCard(info)
