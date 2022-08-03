@@ -5,6 +5,11 @@ info = {
   youtube: 'youtube.com/planetoftheweb',
   linkedin: 'linkedin.com/in/planetoftheweb'
 }
-function displayCard() {
+function displayCard(myObj) {
+  return (
+    `<b>Name</b>: ${myObj.name}<br>
+     <b>Twitter</b>: ${myObj.twitter}<br>    
+    `
+  )
 }
 $('#output').innerHTML = displayCard(info)
