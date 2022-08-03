@@ -3,7 +3,7 @@ info = {
   name: 'Ray Villalobos',
   twitter: '@planetoftheweb',
   youtube: 'youtube.com/planetoftheweb',
-  youtube: 'linkedin.com/in/planetoftheweb'
+  linkedin: 'linkedin.com/in/planetoftheweb'
 }
 function displayCard() {
 }
