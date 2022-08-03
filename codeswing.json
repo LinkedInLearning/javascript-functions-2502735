@@ -1,5 +1,7 @@
 {
   "scripts": [],
-  "styles": [],
+  "styles": [
+    "https://cdnjs.cloudflare.com/ajax/libs/picocss/1.5.3/pico.classless.css"
+  ],
   "showConsole": true
 }

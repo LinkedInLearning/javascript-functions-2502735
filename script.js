@@ -1,15 +1,9 @@
-const $ = document.querySelector.bind(document)
-info = {
-  name: 'Ray Villalobos',
-  twitter: '@planetoftheweb',
-  youtube: 'youtube.com/planetoftheweb',
-  linkedin: 'linkedin.com/in/planetoftheweb'
+var temp = 86
+tempC()
+console.log(temp) // 86
+function tempC() {
+    console.log(temp) // undefined
+    var temp = 50
+    temp = (temp - 32) / 1.8 // 10
+    console.log(temp) // 18
 }
-function displayCard(myObj) {
-  return (
-    `<b>Name</b>: ${myObj.name}<br>
-     <b>Twitter</b>: ${myObj.twitter}<br>    
-    `
-  )
-}
-$('#output').innerHTML = displayCard(info)
