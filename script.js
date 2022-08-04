@@ -7,5 +7,3 @@ function counter() {
 let steps = counter();
 steps() // 1
 steps() // 2
-steps() // 3
-steps() // 4
