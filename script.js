@@ -5,12 +5,9 @@ info = {
     blog: 'https://raybo.org'
   },
   logSocial: function() {
-    return (
-        console.log(`${this.social.youtube}
-            ${this.social.linkedin}
-            ${this.social.blog}`
-        )
-    )
+    for (const key in this.social) {
+      console.log(`${key}: ${this.social[key]}`)
+    }
   }
 }
 info.logSocial();
