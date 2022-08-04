@@ -1,10 +1,16 @@
-var temp = 86
-function tempC() {
-    var temp
-    console.log(temp) // undefined
-    var temp = 50
-    temp = (temp - 32) / 1.8
-    console.log(temp) // 10
+info = {
+  social: {
+    youtube: 'https://youtube.com/planetoftheweb',
+    linkedin: 'https://linkedin.com/in/planetoftheweb',
+    blog: 'https://raybo.org'
+  },
+  logSocial: function() {
+    return (
+        console.log(`${this.social.youtube}
+            ${this.social.linkedin}
+            ${this.social.blog}`
+        )
+    )
+  }
 }
-tempC()
-console.log(temp) // 86
+info.logSocial();
