@@ -1,11 +1,6 @@
-function counter() {
-  let number = 1
-  return function() {
-    console.log(number++)
-  }
+function add(...theArgs) {
+  let argSum = theArgs.reduce((sum, val) => sum + val)
+  return argSum;
 }
-let steps = counter();
-steps() // 1
-steps() // 2
-steps() // 3
-steps() // 4
+output = add(1,2,3,4,5);
+console.log(output) //15
