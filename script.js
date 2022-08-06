@@ -7,7 +7,7 @@ let Dog = function() {
 }
 
 Dog.prototype.speak = speak
-let firstDog = new Dog;
+let myDog = new Dog;
 
-firstDog.name = "Mojo"
-firstDog.speak('woof')
+myDog.name = "Mojo"
+myDog.speak('woof')
