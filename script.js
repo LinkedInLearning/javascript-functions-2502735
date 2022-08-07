@@ -1,15 +1,13 @@
-function myObject () {
-    let myValue = 1;
-    return {
-        display: () => console.log(myValue),
-        increment: () => myValue++
-    }
-}
+let fibby = function (count) {
+    console.log(`Fibby: ${count}`)
 
-var mything = myObject();
-    mything.display();
-    mything.increment();
-    mything.display();
-var other = myObject();
-    other.display();
-    other.increment();
+    if (count===1) return [0, 1]
+    let arr = fibby(count-1)
+
+    let sum = arr[arr.length -1] + arr[arr.length - 2]
+    arr.push(sum)
+    console.log(arr)
+
+    return arr
+}
+fibby(8);
