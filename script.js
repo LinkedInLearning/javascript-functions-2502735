@@ -1,4 +1,7 @@
-import * as lib from './raybo.js'
-
-console.log(lib.getRandomInt(6))
-console.log(lib.squared(3))
+function myObject () {
+    let myValue = 1;
+    return {
+        display: () => console.log(myValue),
+        increment: () => myValue++
+    }
+}
