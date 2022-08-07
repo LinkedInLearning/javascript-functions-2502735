@@ -1,3 +1,4 @@
-import {random as dice} from './raybo.js'
+import * as lib from './raybo.js'
 
-console.log(dice(6));
+console.log(lib.getRandomInt(6))
+console.log(lib.squared(3))
