@@ -5,3 +5,11 @@ function myObject () {
         increment: () => myValue++
     }
 }
+
+var mything = myObject();
+    mything.display();
+    mything.increment();
+    mything.display();
+var other = myObject();
+    other.display();
+    other.increment();
