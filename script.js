@@ -1,7 +1,3 @@
-function squared(a) {
-  return a * a;
-}
+import {random as dice} from './raybo.js'
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max + 1);
-}
+console.log(dice(6));
