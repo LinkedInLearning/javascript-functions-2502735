@@ -1,13 +1,12 @@
-let fibby = function (count) {
-    console.log(`Fibby: ${count}`)
-
-    if (count===1) return [0, 1]
-    let arr = fibby(count-1)
-
-    let sum = arr[arr.length -1] + arr[arr.length - 2]
-    arr.push(sum)
-    console.log(arr)
-
-    return arr
+async function getSocial() {
+    const res = await fetch('./social.json')
+    const data = await res.json()
+    return data
 }
-fibby(8);
+
+async function doSocial() {
+    const social = await getSocial()
+    console.log(social)
+}
+
+doSocial()
