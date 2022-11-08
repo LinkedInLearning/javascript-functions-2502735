@@ -1,5 +1,5 @@
 # Javascript: Functions 
-This is the repository for the LinkedIn Learning course Javascript: Functions . The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Javascript: Functions. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![Javascript: Functions ][lil-thumbnail-url]
 
