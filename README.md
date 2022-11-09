@@ -1,7 +1,7 @@
 # Javascript: Functions 
 This is the repository for the LinkedIn Learning course Javascript: Functions. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![Javascript: Functions ][lil-thumbnail-url]
+![1666989953558](https://user-images.githubusercontent.com/28540243/200743537-8cf0481f-f70d-4320-a72c-43a7bd3c323d.jpeg)
 
 If you want to master JavaScript as a functional programming language, you need to know how to wield advanced techniques, and that means working with functions. In JavaScript, functions are the hidden but secretly powerful bones of your stacks. In this course, author Ray Villalobos explains how functions work, how they're declared, and how you can invoke them more effectively to improve your web applications. Learn about the importance of essential functions like expressions, arguments, scope and hoisting, methods, and return. Along the way, Ray gives you tips on how to get the most out of more advanced features, particularly when you’re working with functions like arrow functions, constructors, recursion, asynchronous functions, and social media links. Be sure to check out the challenge exercises at the end of each section, testing out your new skills with interactive examples and live coding.<br><br>This course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With GitHub Codespaces, you can get hands-on practice from any machine, at any time—all while using a tool that you’ll likely encounter in the workplace. Check out the [Using GitHub Codespaces with this course][gcs-video-url] video to learn how to get started.
 
