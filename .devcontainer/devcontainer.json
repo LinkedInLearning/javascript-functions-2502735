@@ -5,7 +5,7 @@
     "dbaeumer.vscode-eslint",
     "ritwickdey.LiveServer",
     "stylelint.vscode-stylelint",
-    "codespaces-Contrib.codeswing"
+    "codespaces-contrib.codeswing"
     // Additional Extensions Here
   ],
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
