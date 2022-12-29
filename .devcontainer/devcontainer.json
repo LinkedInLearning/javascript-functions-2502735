@@ -8,7 +8,8 @@
     "codespaces-contrib.codeswing"
     // Additional Extensions Here
   ],
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "postAttachCommand": "git pull --all"
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
